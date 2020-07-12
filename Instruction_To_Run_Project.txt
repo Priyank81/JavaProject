@@ -1,0 +1,51 @@
+To Run the project as Admin:
+User ID: admin
+Password: admin
+
+To Run the project as User:
+User ID: test
+Password: test
+
+
+Run Through Command line: (Benefit: No need to add mySQLJDBC jar)
+1. Download BusPassMaintenanceH7.jar
+2. CD to downloaded folder.
+3. Now, to Run:
+Command:    java -jar BusPassMaintenanceH7.jar 
+
+             OR
+
+Run IN Eclipse:
+Import Project in Eclipse
+1. Unzip ATLAS-H7-BUSPASS.zip
+2. In eclipse click on File > Open Project from file system
+3. Click on directory > Select ATLAS-H7-BUSPASS
+4. Click on open
+5. Click on finish
+6. Now, Right click on Project properties and follow below instruction to add mySQL JDBC driver in your project build path
+
+7.JDBC connect driver
+
+ Go into the properties of your project 
+- Select 'Build Path'for project 'Libraries'.
+- Add external JARs mysql-connector-java-8.0.19.jar
+
+
+You can find mysql-connector-java-8.0.19.jar in Google drive link.
+
+
+8. To run the project run main file I.e. "BusPassRunner.java"
+
+
+
+**To view the DB you can use Chrome extension- MySQL Admin** 
+
+https://chrome.google.com/webstore/detail/chrome-mysql-admin/ndgnpnpakfcdjmpgmcaknimfgcldechn?hl=en
+
+To connect 
+
+Name: H7
+Endpoint: h7-bus-pass-atlas.cshwoihh6dqb.us-east-1.rds.amazonaws.com 
+Port 3306
+username:  admin
+password: atlas1234
